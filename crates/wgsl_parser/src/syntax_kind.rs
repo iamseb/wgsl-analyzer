@@ -201,8 +201,8 @@ pub enum SyntaxKind {
     Vec4,
 
     // other keywords
-    #[token("bitcast")]
-    Bitcast,
+    // #[token("bitcast")]
+    // Bitcast,
     // #[token("block")]
     // Block,
     #[token("break")]
