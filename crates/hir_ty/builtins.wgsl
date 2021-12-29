@@ -363,3 +363,7 @@ op_binary_mul(vecN<T>, vecN<T>) -> vecN<T>
 op_binary_mul(vecN<T>, T) -> vecN<T>
 op_binary_mul(T, vecN<T>) -> vecN<T>
 op_binary_mul(T, T) -> T
+
+bitcast<T>(i32) -> T
+bitcast<T>(u32) -> T
+bitcast<T>(f32) -> T
